@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37710.0 d17.14
+VisualStudioVersion = 17.14.37710.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguageHelloWorld", "MultiLanguageHelloWorld.csproj", "{094C44DF-6251-41B7-9888-FFC5F21FDE8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguageHelloWorld.Tests", "MultiLanguageHelloWorld.Tests\MultiLanguageHelloWorld.Tests.csproj", "{FBE60021-00CA-21B5-3963-1C8C6992BCB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{094C44DF-6251-41B7-9888-FFC5F21FDE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094C44DF-6251-41B7-9888-FFC5F21FDE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094C44DF-6251-41B7-9888-FFC5F21FDE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE60021-00CA-21B5-3963-1C8C6992BCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE60021-00CA-21B5-3963-1C8C6992BCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE60021-00CA-21B5-3963-1C8C6992BCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE60021-00CA-21B5-3963-1C8C6992BCB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

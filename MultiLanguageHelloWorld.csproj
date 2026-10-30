@@ -11,11 +11,16 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.14" />
   </ItemGroup>
 
-
   <ItemGroup>
     <None Update="Python\printer.py"
           CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
+  <!-- Exclude the nested unit test project from compilation -->
+  <ItemGroup>
+    <Compile Remove="MultiLanguageHelloWorld.Tests/**/*.cs" />
+    <EmbeddedResource Remove="MultiLanguageHelloWorld.Tests/**/*" />
+    <None Remove="MultiLanguageHelloWorld.Tests/**/*" />
+  </ItemGroup>
 
 </Project>
