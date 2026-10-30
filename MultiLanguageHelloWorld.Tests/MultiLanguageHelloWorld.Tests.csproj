@@ -34,4 +34,12 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <None Include="..\Python\printer.py"
+          Link="Python\printer.py"
+          CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+
 </Project>
