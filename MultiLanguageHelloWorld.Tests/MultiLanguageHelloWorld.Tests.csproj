@@ -35,11 +35,17 @@
   </ItemGroup>
 
 
-  <ItemGroup>
-    <None Include="..\Python\printer.py"
-          Link="Python\printer.py"
-          CopyToOutputDirectory="PreserveNewest" />
-  </ItemGroup>
+
+<ItemGroup>
+  <None Include="..\Python\printer.py"
+        Link="Python\printer.py"
+        CopyToOutputDirectory="PreserveNewest" />
+
+  <None Include="..\JavaScript\printer.js"
+        Link="JavaScript\printer.js"
+        CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup>
+
 
 
 </Project>

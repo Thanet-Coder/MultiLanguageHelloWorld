@@ -12,9 +12,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Python\printer.py" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+
+  <ItemGroup>
     <None Update="Python\printer.py"
           CopyToOutputDirectory="PreserveNewest" />
+
+    <None Update="JavaScript\printer.js"
+          CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
+
 
   <!-- Exclude the nested unit test project from compilation -->
   <ItemGroup>
