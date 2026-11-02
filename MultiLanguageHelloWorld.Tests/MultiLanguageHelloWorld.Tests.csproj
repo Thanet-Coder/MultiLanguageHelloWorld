@@ -44,6 +44,10 @@
   <None Include="..\JavaScript\printer.js"
         Link="JavaScript\printer.js"
         CopyToOutputDirectory="PreserveNewest" />
+
+  <None Include="..\C\printer.dll"
+      Link="C\printer.dll"
+      CopyToOutputDirectory="PreserveNewest" />
 </ItemGroup>
 
 

@@ -17,11 +17,14 @@
 
 
   <ItemGroup>
-    <None Update="Python\printer.py"
+    <None Update="Python\printer.py" CopyToOutputDirectory="PreserveNewest" />
+
+    <None Update="JavaScript\printer.js" CopyToOutputDirectory="PreserveNewest" />
+
+
+    <None Update="C\printer.dll"
           CopyToOutputDirectory="PreserveNewest" />
 
-    <None Update="JavaScript\printer.js"
-          CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 
@@ -30,6 +33,9 @@
     <Compile Remove="MultiLanguageHelloWorld.Tests/**/*.cs" />
     <EmbeddedResource Remove="MultiLanguageHelloWorld.Tests/**/*" />
     <None Remove="MultiLanguageHelloWorld.Tests/**/*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="C\" />
   </ItemGroup>
 
 </Project>

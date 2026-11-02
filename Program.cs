@@ -19,6 +19,8 @@ namespace MultiLanguageHelloWorld
             services.AddTransient<IMessagePrinter, FancyPrinter>();
             services.AddTransient<IMessagePrinter, PythonPrinter>();
             services.AddTransient<IMessagePrinter, JavaScriptPrinter>();
+            services.AddTransient<IMessagePrinter, CPrinter>();
+            services.AddTransient<INativePrinter, NativeCPrinter>();
 
             // Register menu service
             services.AddTransient<MenuService>();
